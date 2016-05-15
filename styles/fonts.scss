@@ -1,0 +1,26 @@
+body {
+    color: #767676;
+    font-family: 'Open Sans', sans-serif;
+    .header_font {
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+    }
+    .handwritten_font {
+        font-family: 'Sacramento', serif;
+    }
+    .sign_off {
+        margin-top: 50px;
+        font-size: 7em;
+    }
+    .accent_text {
+        border-bottom: 1px solid $main-color;
+        margin: 20px 0px 40px 0px;
+    }
+    h1.main_heading {
+        text-transform: uppercase;
+    }
+    @font-face {
+        font-family: "SuperFrench";
+        src: url("font/SuperFrench.tff")/* TTF file for CSS3 browsers */
+    }
+}

@@ -1,0 +1,83 @@
+content {
+    .main_content {
+        padding: 100px 50px 100px 50px;
+    }
+    .header_image {
+        &.home {
+            background-image: url("../image/main.jpg");
+        }
+        &.aromatherapy {
+            background-image: url("../image/aromatherapy.jpg");
+            background-position-y: -350px;
+        }
+        &.hypnotherapy {
+            background-image: url("../image/Watch.jpg");
+            background-position-y: -350px;
+        }
+        &.cbt {
+            background-image: url("../image/domino.jpg");
+            background-position-y: -450px;
+        }
+        &.eft {
+            background-image: url("../image/ripples.jpg");
+            background-position-y: -450px;
+        }
+        &.coaching {
+            background-image: url("../image/boat.jpg");
+            background-position-y: -350px;
+        }
+        &.counselling {
+            background-image: url("../image/path.jpg");
+            background-position-y: -400px;
+        }
+        &.nlp {
+            background-image: url("../image/footprints.jpeg");
+            background-position-y: -700px;
+            background-size: cover;
+        }
+        position: relative;
+        height: 400px;
+        width: 100%;
+        background-position: center;
+        background-size: 100% 1000px;
+        background-repeat: no-repeat;
+        border-bottom: 1px solid #DBDBDB;
+        .strapline {
+            p {
+                margin-bottom: 0px;
+                color: $main-color;
+            }
+            position: absolute;
+            top: 25%;
+            left: 5%;
+            font-size: 3em;
+            font-size: 3em;
+            color: #9B9B9B;
+            .meet_me {
+                a {
+                    color: $main-color;
+                }
+                a:hover {
+                    text-decoration: none;
+                }
+                padding: 10px 20px 10px 20px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                transition: $soft-transition;
+                &:hover {
+                    a {
+                        color: #BABABA;
+                    }
+                    border: 2px solid #BABABA;
+                }
+                border: 2px solid #BABABA;
+                ;
+                background-color: transparent;
+                border-radius: 6px;
+                font-size: 0.7em;
+            }
+        }
+    }
+}

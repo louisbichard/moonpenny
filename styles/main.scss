@@ -1,0 +1,13 @@
+$main-color: #7CBEC6;
+$soft-transition: all 0.2s ease-in-out;
+$dark-grey: #707070;
+$soft-shadow: 3px 3px 5px 0px rgba(223, 223, 223, 0.75);
+
+.main_colour {
+    color: $main-color;
+}
+
+@import 'navigation';
+@import 'content';
+@import 'fonts';
+@import 'footer';

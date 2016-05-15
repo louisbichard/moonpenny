@@ -1,0 +1,96 @@
+header {
+    z-index: 10;
+    position: relative;
+    .fht_logo {
+        position: absolute;
+        right: 20px;
+        top: 0px;
+        height: 88px;
+        width: 110px;
+    }
+    .main_heading {
+        margin-bottom: 0px;
+        color: $main-color;
+    }
+    .secondary_heading {
+        color: darkgrey;
+        margin-top: -5px;
+    }
+    border-bottom: 2px solid #C8C8C8;
+    @media (max-width: 120px) and (min-width: 400px) {
+        .navbar {
+            width: 100%;
+        }
+    }
+    @media (max-width: 1400px) and (min-width: 1200px) {
+        .navbar {
+            width: 45%;
+        }
+    }
+    @media (max-width: 1600px) and (min-width: 1400px) {
+        .navbar {
+            width: 40%;
+        }
+    }
+    @media (max-width: 2000px) and (min-width: 1600px) {
+        .navbar {
+            width: 35%;
+        }
+    }
+    .navbar {
+        .toggle_nav {
+            margin-left: 20px;
+            background-color: transparent;
+            border: 1px solid grey;
+            padding: 5px 10px 5px 10px;
+            border-radius: 3px;
+            &:hover {
+                transition: $soft-transition;
+                color: $main-color;
+                border: 1px solid $main-color;
+            }
+        }
+        .nav .open>a {
+            background-color: transparent;
+        }
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+        .nav.navbar-nav {
+            ul.dropdown-menu {
+                box-shadow: $soft-shadow;
+                border-radius: 1px;
+                border: 1px solid #DFDFDF;
+                li {
+                    margin: 10px;
+                }
+                li.active {
+                    a {
+                        background-color: white;
+                    }
+                }
+            }
+            li {
+                a:visited,
+                a:focus {
+                    background-color: transparent;
+                }
+                a:hover {
+                    background-color: transparent;
+                    color: $main-color;
+                }
+                margin-bottom: -3px;
+                &.active {
+                    background-color: transparent;
+                    transition: $soft-transition;
+                    color: $main-color;
+                    border-bottom: 4px solid $main-color;
+                }
+                a {
+                    color: #A9A9A9;
+                }
+            }
+        }
+    }
+}
